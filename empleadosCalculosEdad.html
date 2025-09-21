@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Empleados</h1>
+    </header>
+    <main>
+        <form id="form">
+            <h1>Formulario</h1>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="nombre" name="text">
+
+            <label for="departamento">Departamento</label>
+            <input type="text" name="text" id="departamento">
+
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="date" id="nacimiento">
+
+            <input type="button" value="Agregar" id="agregar">
+        </form>
+        <section id="tablacontainer">
+            <table id="tabla">
+                <thead>
+                    <th>Nombre</th>
+                    <th>Departamento</th>
+                    <th>Fecha de nacimiento</th>
+                    <th>Edad</th>
+                </thead>
+                <tbody id="tablaEmpleados">
+                    
+                </tbody>
+            </table>
+            <button type="button" id="btncalcular">Calcular</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+    <footer>
+         <div id="footerContainer">
+        <div class="footerClass">
+            <h3>Contacto</h3>
+            <a href="#">351-477-0991</a>
+        </div>
+
+        <div class="footerClass">
+            <h3>Email</h3>
+            <a href="#">GestionDeEmpleados1@gmail.com</a>
+        </div>
+
+         <div class="footerClass">
+            <h3>Ubicacion</h3>
+            <a href="#">Cordoba, Argentina</a>
+        </div>
+      </div>
+        <h4>Todos los derechos reservados - Gestion de Empleados</h4>
+    </footer>
+    <script src="jsdos.js"></script>
+</body>
+</html>
